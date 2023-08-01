@@ -30,12 +30,12 @@ const CardD=props=>{
     },[btnClick]);
     return(
         <Card style={{
-            display: 'inline-block', width: 300, padding: 10,
+            display: 'inline-block', width: 200, padding: 10,
             margin:10
         }} >
         <CardImg
            
-            height="300px"
+            height="150px"
         src={props.Imgurl}
             alt="GFG Logo" />
         <CardBody>
